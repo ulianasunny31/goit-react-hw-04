@@ -14,7 +14,7 @@ const SearchBar = ({ handleChangeQuery}) => {
     e.preventDefault()
     
     if (value.trim() === '') {
-      toast.error('Please write something in the search input');
+      toast.error('Please write a search word!');
       return;
     }
      console.log("Form submitted with value:", value);
