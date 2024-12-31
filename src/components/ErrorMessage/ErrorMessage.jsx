@@ -1,7 +1,7 @@
 const ErrorMessage = () => {
   return (
-    <div>Oops! Something happened here, please try again...</div>
+    <div>Oops! <br/> Something happened here, please try again...</div>
   )
 }
 
-export default ErrorMessage
+export default ErrorMessage;

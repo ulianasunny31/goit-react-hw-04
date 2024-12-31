@@ -1,0 +1,18 @@
+.galleryList {
+  padding-top: 50px;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  column-gap: 50px;
+  row-gap: 30px;
+}
+
+.galleryList li {
+  width: 200px;
+}
+
+.galleryList img {
+  width: 220px;
+  height: 250px;
+}
