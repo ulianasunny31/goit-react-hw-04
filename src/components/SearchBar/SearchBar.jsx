@@ -17,7 +17,6 @@ const SearchBar = ({ handleChangeQuery}) => {
       toast.error('Please write a search word!');
       return;
     }
-     console.log("Form submitted with value:", value);
     
     handleChangeQuery(value);
   }

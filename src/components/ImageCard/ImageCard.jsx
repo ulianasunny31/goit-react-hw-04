@@ -1,8 +1,10 @@
 /* eslint-disable react/prop-types */
-const ImageCard = ({url, descr}) => {
+ 
+
+const ImageCard = ({pic, onImageClick}) => {
   return (
-    <div>
-  <img src={url} alt={descr} />
+<div>
+      <img src={pic.urls.small}   alt={pic.description} onClick={() => onImageClick(pic)}/>
 </div>
 
   )
