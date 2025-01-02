@@ -8,8 +8,6 @@ const ImageGallery = ({ pics, onImageClick}) => {
   return (
       <ul className={css.galleryList}>
       {pics.map((pic) => {
-             
-            
               return (
             <li key={nanoid()}>
                  <ImageCard pic={pic} onImageClick={onImageClick}/>

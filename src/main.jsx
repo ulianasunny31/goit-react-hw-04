@@ -8,7 +8,7 @@ createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
     <Toaster
-  position="bottom-center"
+  position="top-center"
   toastOptions={{
       duration: 2000,
       removeDelay: 1000,

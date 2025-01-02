@@ -4,16 +4,22 @@
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  column-gap: 50px;
-  row-gap: 30px;
+  column-gap: 30px;
+  row-gap: 20px;
 }
 
 .galleryList li {
-  width: 200px;
+  width: 250px;
 }
 
 .galleryList img {
-  width: 220px;
-  height: 250px;
-  cursor: pointer;
+  width: 250px;
+  height: 230px;
+  cursor: zoom-in;
+  border-radius: 4px;
+}
+
+.galleryList img:hover {
+  transform: scale(1.005);
+  box-shadow: 0px 0px 20px -5px #04051d;
 }

@@ -5,7 +5,6 @@ import css from "./ImageModal.module.css"
 Modal.setAppElement('#root');
 
 const ImageModal = ({ photoInfo, onModalClose }) => {
-  console.log(photoInfo.user.instagram_username);
   
   return (
       <Modal
@@ -18,8 +17,8 @@ const ImageModal = ({ photoInfo, onModalClose }) => {
         <div>
           <img className={css.modalImg} src={photoInfo.urls.regular} />
         <div className={css.imageTextDiv}>
-          <p>{photoInfo.user.instagram_username}</p>
-          <p>{photoInfo.likes}</p>
+          <p>@{photoInfo.user.instagram_username}</p>
+          <p>Likes: {photoInfo.likes}</p>
           </div>
         </div>
       }
